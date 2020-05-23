@@ -33,6 +33,8 @@ Exemplo de token:
 
 91f4600e9d5d437da7e576ffc91ffd6a
 
+* Link de acesso: http://localhost:8080
+
 
 * Selecione os plugins desejados
 * Preencha os dados para criar um usuário
@@ -70,6 +72,8 @@ vi /etc/hosts
 192.168.0.8	gitlab.example.com 
 127.0.0.1	localhost
 ```
+
+* Link de acesso: http://gitlab.example.com
 
 * defina a senha
 
