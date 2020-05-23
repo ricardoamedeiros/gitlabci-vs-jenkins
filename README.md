@@ -110,6 +110,8 @@ Exemplo de configuração:
 
 Caminho do gitlab onde é obtida a url e o token que devem ser informados ao registrar o gitlab-runner.
 
+Admin Area > Runner
+
 ![Exemplo de configuração](image/token.png)
 
 
