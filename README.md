@@ -130,11 +130,11 @@ Caso já tenha um subdomínio com https execute os seguintes passos:
 vim $GITLAB_HOME/gitlab/config/gitlab.rb
 ```
 
-* Adicionar a seguinte linha:
+* Descomente e defina a seguinte linha com o subdomnio do gitlab. Exemplo:
 
 registry_external_url 'https://registry.gitlab.example.com'
 
-* Aplique configuração:
+* Aplique a configuração:
 
 ```bash
 gitlab-ctl reconfigure
