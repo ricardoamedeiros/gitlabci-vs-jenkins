@@ -147,7 +147,7 @@ Acesse algum projeto e será possível ver a aba **Packages & Registries**:
 
 Link: https://linuxhint.com/gitlab_container_registry_setup
 
-Uma dica para gerar um dns válido é usar o http://{ip-publico}.xip.io/.
+Uma dica para gerar um dns válido é usar o http://xip.io.
 
 
 # Referências
