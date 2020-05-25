@@ -1,7 +1,7 @@
 # Pré requisito 
 
 * Instalar a última versão do docker
-* Sistema operação Linux
+* Sistema operacional Linux
 
 # Instalar docker 
 
