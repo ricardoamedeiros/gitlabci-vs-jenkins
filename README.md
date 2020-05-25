@@ -81,13 +81,6 @@ Obs.: O usuário padrão é o root.
 
 # Instalação do gitlab-ci
 
-* Instalação do repositório de pacotes debian
-
-```bash
-# For Debian/Ubuntu/Mint
-curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | sudo bash
-```
-
 * Instalação do gitlab-runner onde roda as pipeline do gitlab-ci
 
 ```bash
