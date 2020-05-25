@@ -107,7 +107,7 @@ sudo gitlab-runner register -n \
   --docker-volumes /var/run/docker.sock:/var/run/docker.sock
 ```
 
-Obs.: Substituas as variáveis pelos valores encontrados no gitlab. Conforme imagem abaixo:
+Obs.: Substitua as variáveis pelos valores encontrados no gitlab. Conforme imagem abaixo:
 
 ![Exemplo de configuração](image/config-gitlab-ci.png)
 
