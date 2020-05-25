@@ -143,7 +143,7 @@ Acesse algum projeto e será possível ver a aba **Packages & Registries**:
 
 ![Exemplo de configuração](image/registry.png)
 
-O tutorial do link abaixo ensina como gerar um certificado com Lets Encrypt e configurar o registry. 
+**Importante**: Caso não tenha um subdominio com https, o tutorial do link abaixo ensina como gerar um certificado com Lets Encrypt e configurar o registry. 
 
 Link: https://linuxhint.com/gitlab_container_registry_setup
 
