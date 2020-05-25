@@ -118,6 +118,37 @@ Admin Area > Runner
 
 ![Exemplo de configuração](image/token.png)
 
+# Habilitar o registry do gitlab
+
+Para o registry funcionar é necessário definir um subdomínio com https. Exemplo: https://registry.gitlab.example.com.
+
+Caso já tenha um subdomínio com https execute os seguintes passos:
+
+* Edite o arquivo gitlab.rb dentro do volume:
+
+```bash
+vim $GITLAB_HOME/gitlab/config/gitlab.rb
+```
+
+* Adicionar a seguinte linha:
+
+registry_external_url 'https://registry.gitlab.example.com'
+
+* Aplique configuração:
+
+```bash
+gitlab-ctl reconfigure
+```
+Acesse algum projeto e será possível ver a aba **Packages & Registries**:
+
+![Exemplo de configuração](image/registry.png)
+
+O tutorial do link abaixo ensina como gerar um certificado com Lets Encrypt e configurar o registry. 
+
+Link: https://linuxhint.com/gitlab_container_registry_setup
+
+Uma dica para gerar um dns válido é usar o http://{ip-publico}.xip.io/.
+
 
 # Referências
 
