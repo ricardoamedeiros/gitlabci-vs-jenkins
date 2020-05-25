@@ -98,7 +98,13 @@ dpkg -i gitlab-runner_amd64.deb
 * Registrar a máquina que irá rodar o pipeline
 
 ```bash
-sudo gitlab-runner register
+sudo gitlab-runner register -n \
+  --url ${GITLAB_URL} \
+  --registration-token ${REGISTRATION_TOKEN} \
+  --executor docker \
+  --description "Docker Runner" \
+  --docker-image "docker:19.03.8" \
+  --docker-volumes /var/run/docker.sock:/var/run/docker.sock
 ```
 
 Exemplo de configuração:
